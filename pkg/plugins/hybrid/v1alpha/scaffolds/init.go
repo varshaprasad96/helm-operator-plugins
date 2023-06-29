@@ -33,11 +33,7 @@ import (
 	"sigs.k8s.io/kubebuilder/v3/pkg/plugins"
 
 	kustomizev2 "sigs.k8s.io/kubebuilder/v3/pkg/plugins/common/kustomize/v2"
-<<<<<<< HEAD
 	golangv4 "sigs.k8s.io/kubebuilder/v3/pkg/plugins/golang/v4/scaffolds"
-=======
-	golangv3 "sigs.k8s.io/kubebuilder/v3/pkg/plugins/golang/v3/scaffolds"
->>>>>>> 6410ccf (Bump controller-runtime and k8s.io deps)
 )
 
 const (
