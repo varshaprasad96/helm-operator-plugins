@@ -1,6 +1,6 @@
 module github.com/operator-framework/helm-operator-plugins
 
-go 1.19
+go 1.20
 
 require (
 	github.com/blang/semver/v4 v4.0.0
@@ -14,6 +14,7 @@ require (
 	github.com/prometheus/client_golang v1.15.1
 	github.com/sergi/go-diff v1.2.0
 	github.com/sirupsen/logrus v1.9.3
+	github.com/spf13/afero v1.9.5
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.2
@@ -137,7 +138,6 @@ require (
 	github.com/rubenv/sql-migrate v1.3.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
-	github.com/spf13/afero v1.9.5 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
